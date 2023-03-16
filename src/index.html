@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS git-repos</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<div class="form">
+					<form action="#" id="form" class="form__body">
+						<div class="form__item">
+							<h1 class="form__title">Найти репозитории</h1>
+							<div class="input__container">
+								<input
+									placeholder="Введите название"
+									data-required="true"
+									type="text"
+									id="formSearch"
+									name="searchRequest"
+									class="form__input"
+								/>
+							</div>
+							<div class="buttons">
+								<button type="submit" class="form__button submit-btn">Поиск</button>
+								<button type="button" class="form__button cancel-btn">Отмена</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="repos">
+					<div id="repos-loader" class="invinsible">Загрузка...</div>
+					<div class="repos__container"></div>
+				</div>
+			</div>
+		</div>
+
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
