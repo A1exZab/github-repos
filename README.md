@@ -1,5 +1,6 @@
-## JS git-repos
-
+## JS github-repos
+---
+## With this app you can find github repos by name or substring
 ---
 
 In the project directory, you can run:
